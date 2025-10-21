@@ -14,13 +14,12 @@
     }
 }
 
-.text {
-    font-size: 40px; /*文字サイズを設定*/
+.data {
     position: relative; /*自分を覆ってる要素内の領域ルールに従う状態*/
 }
 
 .nav {
-    top: 280px;
+    top: 321px;
     width: 400px;
     height: 120px;
     background-color: mediumseagreen;

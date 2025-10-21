@@ -1,10 +1,11 @@
-"use client";
+'use client';
 
 import styles from './recode.module.css';
 import { useRouter } from 'next/navigation';
 
 
 export default function Recode() {
+
     const router = useRouter();
     return (
         <main className={styles.main}>{/* スマホのサイズに設定 */}
