@@ -20,11 +20,13 @@
 }
 
 .nav {
-    top: 280px;
+    position: absolute; /* relative → absolute */
+    bottom: -10px;       /* 下からの距離を固定 */
     width: 400px;
     height: 120px;
     background-color: mediumseagreen;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 
 .button01{
