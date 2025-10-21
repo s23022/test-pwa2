@@ -2,18 +2,72 @@
     .main {
         position: absolute;
         width: 400px; /*要素の横幅を固定*/
-        height: 100vh; /*要素の縦幅を固定 600px*/
+        height: 100vh; /*要素の縦幅を固定*/
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: gray; /*背景色*/
-        display: flex; /*フレックスボックスレイアウトの使用*/
-        justify-content: center; /*小要素を左右の中央に配置*/
-        align-items: center; /*小要素を上下の中央に配置*/
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
 .text {
     font-size: 40px; /*文字サイズを設定*/
     position: relative; /*自分を覆ってる要素内の領域ルールに従う状態*/
+}
+
+.nav {
+    top: 280px;
+    width: 400px;
+    height: 120px;
+    background-color: forestgreen;
+    position: relative;
+}
+
+.button01{
+    width: 130px;
+    height: 110px;
+    position: relative;
+    margin-left: 2px;
+    background-color: transparent;
+    border: none;
+}
+.home_img03 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+
+.button02{
+    width: 130px;
+    height: 110px;
+    position: relative;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: transparent;
+    border: none;
+}
+
+.home_img02 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+
+.button03{
+    width: 130px;
+    height: 110px;
+    position: relative;
+    margin-right: 2px;
+    background-color: transparent;
+    border: none;
+}
+
+.home_img03 {
+    position: relative;
+    width: 70px;
+    height: 70px;
 }
