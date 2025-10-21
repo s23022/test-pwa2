@@ -1,7 +1,11 @@
 @media (max-width: 600px) {
     .main {
+        position: absolute;
         width: 400px; /*要素の横幅を固定*/
         height: 600px; /*要素の縦幅を固定*/
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         background-color: gray; /*背景色*/
         display: flex; /*フレックスボックスレイアウトの使用*/
         justify-content: center; /*小要素を左右の中央に配置*/
