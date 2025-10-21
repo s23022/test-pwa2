@@ -2,7 +2,7 @@
     .main {
         position: absolute;
         width: 400px; /*要素の横幅を固定*/
-        height: 760px; /*要素の縦幅を固定*/
+        height: 600px; /*要素の縦幅を固定*/
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
