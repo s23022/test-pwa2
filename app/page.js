@@ -1,7 +1,7 @@
 "use client";
 
 import styles from './page.module.css';
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation';{/* next/router だとだめらしく、navigationにすると治った*/}
 
 
 export default function Home() {
