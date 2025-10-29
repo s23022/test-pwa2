@@ -66,6 +66,8 @@ export default function Home() {
                     <p>歩数データ取得中．．．</p>
                 )}
             </div>
+
+            {/*下部のナビゲーション*/}
             <div className={styles.nav}>
                 <button
                     className={styles.button01}
