@@ -8,6 +8,17 @@ import {HealthKit} from "@perfood/capacitor-healthkit";
 export default function Home() {
     const router = useRouter();
 
+    //今日の日付を取得するnew Dataを格納
+    const today = new Date();
+    //年・月・日・曜日を取得
+    const year = today.getFullYear();
+    const month = today.getMonth() + 1;
+    const date = today.getDate();
+    const day  = today.getDate();
+    const weekday = ["日","月","火","水","木","金","土"];
+    const dayText = weekday[today.getDay()]; // 例えば水曜日なら "水" になる
+
+
     // 歩数データ用 state
     const [steps, setSteps] = useState(null);
 
@@ -44,6 +55,10 @@ export default function Home() {
     return (
         <main className={styles.main}>
 
+            {/*年月日曜日の表示*/}
+            <div className={styles.days}>
+                {year + "年" + month + "月" + date + "日" + "(" + dayText + ")"}
+            </div>
             <div className={styles.data}>
                 {steps !== null ? (
                     <p>歩数： {steps} 歩</p>

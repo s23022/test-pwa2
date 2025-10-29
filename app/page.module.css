@@ -15,6 +15,19 @@
     }
 }
 
+.days {
+    position: relative;
+    display: flex;               /* フレックスコンテナにする */
+    justify-content: center;     /* 横方向中央 */
+    align-items: center;
+    font-size: 20px;
+    top: -340px;
+    width: 400px;
+    height: 60px;
+    background-color: white;
+
+}
+
 .data {
     position: relative; /*自分を覆ってる要素内の領域ルールに従う状態*/
 }
