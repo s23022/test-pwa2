@@ -33,7 +33,7 @@
     display: flex;               /* フレックスコンテナにする */
     width: 400px;
     height: 50px;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 
 
@@ -44,7 +44,7 @@
     align-items: center;
     width: 200px;
     height: 50px;
-    background-color: mediumvioletred;
+    background-color: white;
     font-size: 25px;
 
 }
@@ -62,13 +62,15 @@
 
 .data {
     position: relative; /*自分を覆ってる要素内の領域ルールに従う状態*/
-    width: 400px;
-    height: 100px;
+    width: 390px;
+    height: 70px;
     font-size: 30px;
     display: flex;               /* フレックスコンテナにする */
     justify-content: center;     /* 横方向中央 */
     align-items: center;
-    background-color: cadetblue;
+    background-color: white;
+    border: 5px solid darkseagreen;
+    border-radius: 20px;
 }
 
 .daily_activity_summary {
@@ -80,7 +82,7 @@
     height: 150px;
     gap: 20px;
     background-color: white;
-    top: 205px;
+    top: 200px;
     max-width: 25rem;
     --slide-height: 19rem;
     --slide-spacing: 2rem;
@@ -347,6 +349,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    right: 80px;
 }
 
 .nav {

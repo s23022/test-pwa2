@@ -146,9 +146,11 @@ export default function Home() {
             <div className={styles.ranking}>
                 <div className={styles.ranking_line}>
                     <div className={styles.ranking_title}>ランキング一覧（1 ~ 100位）</div>
-                    <div className={styles.ranking_list}></div>
+                    <div className={styles.ranking_list}>
+
+                    </div>
                     <div className={styles.ranking_you}>
-                        <p className={styles.ranking_now}>{}の現在の順位は：{}</p>
+                        <p className={styles.ranking_now}>あなたの順位は：{}</p>
                     </div>
                 </div>
             </div>
