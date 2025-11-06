@@ -326,11 +326,11 @@
 .ranking_line {
     position: relative;
     width: 380px;
-    height: 370px;
+    height: 350px;
     background-color: white;
     border: 5px solid darkseagreen;
     border-radius: 10px;
-    bottom: 30px;
+    bottom: 40px;
 }
 
 .ranking_title {
@@ -352,7 +352,7 @@
     align-items: center;
     flex-direction: column;
     width: 380px;
-    height: 250px;
+    height: 230px;
 }
 
 .ranking_you {
@@ -380,15 +380,15 @@
     position: absolute; /* relative → absolute */
     bottom: -10px;       /* 下からの距離を固定 */
     width: 400px;
-    height: 80px;
+    height: 100px;
     background-color: mediumseagreen;
     display: flex;
     justify-content: space-around;
 }
 
 .button01{
-    width: 90px;
-    height: 70px;
+    width: 110px;
+    height: 90px;
     position: relative;
     margin-left: 2px;
     background-color: transparent;
@@ -396,13 +396,13 @@
 }
 .home_img03 {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 
 .button02{
-    width: 90px;
-    height: 70px;
+    width: 110px;
+    height: 90px;
     position: relative;
     margin-left: 3px;
     margin-right: 3px;
@@ -412,6 +412,6 @@
 
 .home_img02 {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
