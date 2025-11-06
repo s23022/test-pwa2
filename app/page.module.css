@@ -50,14 +50,40 @@
 }
 
 .Task {
+    margin: 1px 5px 5px 5px;
     position: relative;
-    display: flex;               /* フレックスコンテナにする */
     justify-content: center;     /* 横方向中央 */
     align-items: center;
-    width: 200px;
-    height: 50px;
-    background-color: darkseagreen;
+    width: 195px;
+    height: 45px;
+    background-color: white;
     font-size: 25px;
+    border: 2px solid darkseagreen;
+    border-radius: 10px;
+}
+
+.challenge_line {
+    position: relative;
+    display: flex;
+    justify-content: center;     /* 横方向中央 */
+    align-items: center;
+    width: 195px;
+    height: 23px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.consecutive_achievement_record {
+    position: relative;
+    display: flex;
+    justify-content: center;     /* 横方向中央 */
+    align-items: center;
+    width: 195px;
+    height: 22px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 13px;
 }
 
 .data {
@@ -300,11 +326,11 @@
 .ranking_line {
     position: relative;
     width: 380px;
-    height: 330px;
+    height: 370px;
     background-color: white;
     border: 5px solid darkseagreen;
     border-radius: 10px;
-    bottom: 50px;
+    bottom: 30px;
 }
 
 .ranking_title {
@@ -326,7 +352,7 @@
     align-items: center;
     flex-direction: column;
     width: 380px;
-    height: 210px;
+    height: 250px;
 }
 
 .ranking_you {
@@ -354,15 +380,15 @@
     position: absolute; /* relative → absolute */
     bottom: -10px;       /* 下からの距離を固定 */
     width: 400px;
-    height: 120px;
+    height: 80px;
     background-color: mediumseagreen;
     display: flex;
     justify-content: space-around;
 }
 
 .button01{
-    width: 130px;
-    height: 110px;
+    width: 90px;
+    height: 70px;
     position: relative;
     margin-left: 2px;
     background-color: transparent;
@@ -370,13 +396,13 @@
 }
 .home_img03 {
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
 }
 
 .button02{
-    width: 130px;
-    height: 110px;
+    width: 90px;
+    height: 70px;
     position: relative;
     margin-left: 3px;
     margin-right: 3px;
@@ -386,6 +412,6 @@
 
 .home_img02 {
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
 }
