@@ -69,8 +69,6 @@
     justify-content: center;     /* 横方向中央 */
     align-items: center;
     background-color: white;
-    border: 5px solid darkseagreen;
-    border-radius: 20px;
 }
 
 .daily_activity_summary {
@@ -302,11 +300,11 @@
 .ranking_line {
     position: relative;
     width: 380px;
-    height: 320px;
+    height: 330px;
     background-color: white;
     border: 5px solid darkseagreen;
-    border-radius: 20px;
-    bottom: 60px;
+    border-radius: 10px;
+    bottom: 50px;
 }
 
 .ranking_title {
@@ -328,7 +326,7 @@
     align-items: center;
     flex-direction: column;
     width: 380px;
-    height: 200px;
+    height: 210px;
 }
 
 .ranking_you {
